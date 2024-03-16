@@ -8,6 +8,9 @@ dependencies:
   ai:
     specifier: ^3.0.12
     version: 3.0.12(react@18.2.0)(solid-js@1.8.15)(svelte@4.2.12)(vue@3.4.21)(zod@3.22.4)
+  generative-ui:
+    specifier: ^0.0.0
+    version: 0.0.0
   next:
     specifier: 14.2.0-canary.24
     version: 14.2.0-canary.24(react-dom@18.2.0)(react@18.2.0)
@@ -1693,6 +1696,13 @@ packages:
   /functions-have-names@1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
+
+  /generative-ui@0.0.0:
+    resolution: {integrity: sha512-6/WwfQukyYylvZDfytvCTT0hjC8paXwoKIwRcoHrgs9AdCPQ1bNfg9qafT17g0qVaP9D6Wocptcm7jD0rC1WLg==}
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /get-intrinsic@1.2.4:
     resolution: {integrity: sha512-5uYhsJH8VJBTv7oslg4BznJYhDoRI6waYCxMmCdnTrcCrHA/fCFKoTFz2JKKE0HdDFUF7/oQuhzumXJK7paBRQ==}
